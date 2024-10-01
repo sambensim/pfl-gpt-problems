@@ -1,10 +1,9 @@
-import HelloWorld from "./HelloWorld";
+import GreetingForm from "./GreetingForm";
 
 export default function Home() {
   return (
     <div>
-      <p>Welcome to my App</p>
-      <HelloWorld />
+      <GreetingForm />
     </div>
   );
 }
