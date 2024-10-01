@@ -2,6 +2,9 @@ import HelloWorld from "./HelloWorld";
 
 export default function Home() {
   return (
-    <HelloWorld />
+    <div>
+      <p>Welcome to my App</p>
+      <HelloWorld />
+    </div>
   );
 }
